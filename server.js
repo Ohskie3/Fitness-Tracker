@@ -1,8 +1,6 @@
 const express = require('express')
 const { join } = require('path')
-const ObjectId = require('mongojs').ObjectId
 
-// const db = require('mongojs')('fitnessdb')
 const app = express()
 
 app.use(express.static(join(__dirname, 'public')))
